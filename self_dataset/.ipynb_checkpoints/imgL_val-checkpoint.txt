@@ -1,0 +1,10 @@
+/home/liusheng/Project/Demo_pose/left/left_Explorer_HD720_SN15385_19-30-22.png
+/home/liusheng/Project/Demo_pose/left/left_Explorer_HD720_SN15385_19-31-20.png
+/home/liusheng/Project/Demo_pose/left/left_Explorer_HD720_SN15385_19-32-12.png
+/home/liusheng/Project/Demo_pose/left/left_Explorer_HD720_SN15385_19-32-20.png
+/home/liusheng/Project/Demo_pose/left/left_Explorer_HD720_SN15385_19-34-00.png
+/home/liusheng/Project/Demo_pose/left/left_Explorer_HD720_SN15385_19-34-18.png
+/home/liusheng/Project/Demo_pose/left/left_Explorer_HD720_SN15385_19-34-37.png
+/home/liusheng/Project/Demo_pose/left/left_Explorer_HD720_SN15385_19-34-44.png
+/home/liusheng/Project/Demo_pose/left/left_Explorer_HD720_SN15385_19-35-42.png
+/home/liusheng/Project/Demo_pose/left/left_Explorer_HD720_SN15385_19-36-03.png

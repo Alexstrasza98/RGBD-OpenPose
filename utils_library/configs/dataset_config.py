@@ -1,0 +1,2 @@
+DATASET = 'self'
+INPUT_TYPE = 'RGB'
