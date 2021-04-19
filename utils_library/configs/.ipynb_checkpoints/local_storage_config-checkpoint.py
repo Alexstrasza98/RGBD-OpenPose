@@ -1,5 +1,7 @@
 import os
-from utils_library.configs.dataset_config import DATASET, INPUT_TYPE
+import sys
+sys.path.append(os.path.dirname(os.path.realpath(__file__)))
+from dataset_config import DATASET, INPUT_TYPE
 
 STORAGE = 'local'
 

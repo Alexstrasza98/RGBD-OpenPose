@@ -1,7 +1,10 @@
 import matplotlib.pyplot as plt
 import matplotlib.colors
 
-import configs.keypoints_config as kc
+import os
+import sys
+sys.path.append(os.path.dirname(os.path.realpath(__file__)))
+import keypoints_config as kc
 
 joint_line_thickness = 2
 cmap = plt.cm.viridis
@@ -23,7 +26,7 @@ joint_colors_bgr = {k: cmap_to_bgr(cmap(joints_norm(v["idx"]))) for k, v in kc.J
 
 keypoint_circle_diameter = 10
 
-DRAW_KEYPOINT_TEXT = True
+DRAW_KEYPOINT_TEXT = False
 keypoint_circle_color = (255, 255, 255)
 keypoint_text_color = (125, 125, 125)
 keypoint_text_thickness = 1

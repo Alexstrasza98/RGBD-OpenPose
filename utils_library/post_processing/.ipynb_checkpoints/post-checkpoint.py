@@ -1,11 +1,20 @@
-import sys
-
-sys.path.append("../..")
 import numpy as np
 import numba
 from numba import njit
 import cv2
+import os
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
+import visualization.visualizations as vis
+import applications.model_wrapper
+import post_processing.post as post
+import configs.draw_config as draw_config
+import configs.post_config as post_config
+import configs.keypoints_config as kpts_config
+import configs.default_config as def_config
+post.Skeletonizer.config(kpts_config.KEYPOINTS_DEF, kpts_config.JOINTS_DEF, post_config)
+post.Skeleton.config(kpts_config.KEYPOINTS_DEF, kpts_config.JOINTS_DEF)
 
 #@njit
 def mark_islands(truth_islands) -> (np.ndarray, dict):

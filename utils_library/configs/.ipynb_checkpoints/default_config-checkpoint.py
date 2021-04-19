@@ -1,5 +1,8 @@
-from utils_library.configs.keypoints_config import *
-from utils_library.configs.dataset_config import DATASET
+import os
+import sys
+sys.path.append(os.path.dirname(os.path.realpath(__file__)))
+from keypoints_config import *
+from dataset_config import DATASET
 
 TPU_MODE = False
 RUN_NAME = ""
@@ -55,9 +58,9 @@ CACHE = False  # depends on available memory size, around 20gb required for both
 
 # Dataset reference values
 if DATASET == 'self':
-    DATASET_SIZE = 55  # exact size not critical
-    DATASET_VAL_SIZE = 10
-    IMAGES_PER_TFRECORD = 65
+    DATASET_SIZE = 264  # exact size not critical
+    DATASET_VAL_SIZE = 66
+    IMAGES_PER_TFRECORD = 100
 elif DATASET == 'COCO':
     DATASET_SIZE = 56000  # exact size not critical
     DATASET_VAL_SIZE = 2500
